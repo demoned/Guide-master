@@ -1,0 +1,3 @@
+include ':app'
+include ':lib-guide'
+rootProject.name = "Guide-master"
