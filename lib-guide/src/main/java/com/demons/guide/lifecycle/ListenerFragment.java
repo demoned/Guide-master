@@ -1,9 +1,8 @@
-package com.app.hubert.guide.lifecycle;
+package com.demons.guide.lifecycle;
 
-import android.support.v4.app.Fragment;
+import android.app.Fragment;
 
-
-public class V4ListenerFragment extends Fragment {
+public class ListenerFragment extends Fragment {
 
     FragmentLifecycle mFragmentLifecycle;
 

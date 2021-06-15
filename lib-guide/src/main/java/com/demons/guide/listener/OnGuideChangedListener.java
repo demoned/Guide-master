@@ -1,6 +1,6 @@
-package com.app.hubert.guide.listener;
+package com.demons.guide.listener;
 
-import com.app.hubert.guide.core.Controller;
+import com.demons.guide.core.Controller;
 
 /**
  * 引导层显示和消失的监听

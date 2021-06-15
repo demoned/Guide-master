@@ -1,4 +1,4 @@
-package com.app.hubert.guide.listener;
+package com.demons.guide.listener;
 
 /**
  * 引导页改变的监听

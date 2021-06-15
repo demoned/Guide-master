@@ -1,11 +1,11 @@
-package com.app.hubert.guide;
+package com.demons.guide;
 
 import android.app.Activity;
 import android.app.Fragment;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.app.hubert.guide.core.Builder;
+import com.demons.guide.core.Builder;
 
 public class NewbieGuide {
 

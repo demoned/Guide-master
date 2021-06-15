@@ -1,8 +1,8 @@
-package com.app.hubert.guide.model;
+package com.demons.guide.model;
 
 import android.view.View;
 
-import com.app.hubert.guide.listener.OnHighlightDrewListener;
+import com.demons.guide.listener.OnHighlightDrewListener;
 
 public class HighlightOptions {
     public View.OnClickListener onClickListener;

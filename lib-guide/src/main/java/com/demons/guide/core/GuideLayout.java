@@ -1,4 +1,4 @@
-package com.app.hubert.guide.core;
+package com.demons.guide.core;
 
 import android.content.Context;
 import android.graphics.BlurMaskFilter;
@@ -18,16 +18,14 @@ import android.view.animation.Animation;
 import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 
-import com.app.hubert.guide.NewbieGuide;
-import com.app.hubert.guide.listener.AnimationListenerAdapter;
-import com.app.hubert.guide.listener.OnHighlightDrewListener;
-import com.app.hubert.guide.listener.OnLayoutInflatedListener;
-import com.app.hubert.guide.model.GuidePage;
-import com.app.hubert.guide.model.HighLight;
-import com.app.hubert.guide.model.HighlightOptions;
-import com.app.hubert.guide.model.RelativeGuide;
+import com.demons.guide.NewbieGuide;
+import com.demons.guide.listener.AnimationListenerAdapter;
+import com.demons.guide.listener.OnLayoutInflatedListener;
+import com.demons.guide.model.GuidePage;
+import com.demons.guide.model.HighLight;
+import com.demons.guide.model.HighlightOptions;
+import com.demons.guide.model.RelativeGuide;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class GuideLayout extends FrameLayout {

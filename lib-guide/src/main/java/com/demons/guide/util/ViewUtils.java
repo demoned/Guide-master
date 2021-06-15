@@ -1,4 +1,4 @@
-package com.app.hubert.guide.util;
+package com.demons.guide.util;
 
 import android.app.Activity;
 import android.content.Context;

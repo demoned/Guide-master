@@ -1,13 +1,13 @@
-package com.app.hubert.guide.core;
+package com.demons.guide.core;
 
 import android.app.Activity;
 import android.app.Fragment;
 import android.text.TextUtils;
 import android.view.View;
 
-import com.app.hubert.guide.listener.OnGuideChangedListener;
-import com.app.hubert.guide.listener.OnPageChangedListener;
-import com.app.hubert.guide.model.GuidePage;
+import com.demons.guide.listener.OnGuideChangedListener;
+import com.demons.guide.listener.OnPageChangedListener;
+import com.demons.guide.model.GuidePage;
 
 import java.util.ArrayList;
 import java.util.List;

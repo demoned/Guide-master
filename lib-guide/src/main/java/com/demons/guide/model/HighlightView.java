@@ -1,10 +1,10 @@
-package com.app.hubert.guide.model;
+package com.demons.guide.model;
 
 import android.graphics.Rect;
 import android.graphics.RectF;
 import android.view.View;
 
-import com.app.hubert.guide.util.ViewUtils;
+import com.demons.guide.util.ViewUtils;
 
 public class HighlightView implements HighLight {
 

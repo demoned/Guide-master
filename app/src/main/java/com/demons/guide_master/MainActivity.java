@@ -12,14 +12,14 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.app.hubert.guide.NewbieGuide;
-import com.app.hubert.guide.core.Controller;
-import com.app.hubert.guide.listener.OnGuideChangedListener;
-import com.app.hubert.guide.listener.OnLayoutInflatedListener;
-import com.app.hubert.guide.listener.OnPageChangedListener;
-import com.app.hubert.guide.model.GuidePage;
-import com.app.hubert.guide.model.HighLight;
-import com.app.hubert.guide.model.RelativeGuide;
+import com.demons.guide.NewbieGuide;
+import com.demons.guide.core.Controller;
+import com.demons.guide.listener.OnGuideChangedListener;
+import com.demons.guide.listener.OnLayoutInflatedListener;
+import com.demons.guide.listener.OnPageChangedListener;
+import com.demons.guide.model.GuidePage;
+import com.demons.guide.model.HighLight;
+import com.demons.guide.model.RelativeGuide;
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = MainActivity.class.getSimpleName();

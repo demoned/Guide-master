@@ -1,4 +1,4 @@
-package com.app.hubert.guide.lifecycle;
+package com.demons.guide.lifecycle;
 
 public abstract class FragmentLifecycleAdapter implements FragmentLifecycle {
     @Override

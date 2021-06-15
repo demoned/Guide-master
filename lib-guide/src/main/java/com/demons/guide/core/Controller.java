@@ -1,4 +1,4 @@
-package com.app.hubert.guide.core;
+package com.demons.guide.core;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -9,13 +9,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import com.app.hubert.guide.NewbieGuide;
-import com.app.hubert.guide.lifecycle.FragmentLifecycleAdapter;
-import com.app.hubert.guide.lifecycle.ListenerFragment;
-import com.app.hubert.guide.lifecycle.V4ListenerFragment;
-import com.app.hubert.guide.listener.OnGuideChangedListener;
-import com.app.hubert.guide.listener.OnPageChangedListener;
-import com.app.hubert.guide.model.GuidePage;
+import com.demons.guide.NewbieGuide;
+import com.demons.guide.lifecycle.FragmentLifecycleAdapter;
+import com.demons.guide.lifecycle.ListenerFragment;
+import com.demons.guide.lifecycle.V4ListenerFragment;
+import com.demons.guide.listener.OnGuideChangedListener;
+import com.demons.guide.listener.OnPageChangedListener;
+import com.demons.guide.model.GuidePage;
 
 import java.lang.reflect.Field;
 import java.security.InvalidParameterException;

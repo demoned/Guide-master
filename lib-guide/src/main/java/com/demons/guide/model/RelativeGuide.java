@@ -1,4 +1,4 @@
-package com.app.hubert.guide.model;
+package com.demons.guide.model;
 
 import android.graphics.RectF;
 import android.support.annotation.IntDef;
@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import com.app.hubert.guide.core.Controller;
+import com.demons.guide.core.Controller;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

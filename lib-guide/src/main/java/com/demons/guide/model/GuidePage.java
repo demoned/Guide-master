@@ -1,4 +1,4 @@
-package com.app.hubert.guide.model;
+package com.demons.guide.model;
 
 import android.graphics.RectF;
 import android.support.annotation.ColorInt;
@@ -7,11 +7,10 @@ import android.support.annotation.Nullable;
 import android.view.View;
 import android.view.animation.Animation;
 
-import com.app.hubert.guide.listener.OnHighlightDrewListener;
-import com.app.hubert.guide.listener.OnLayoutInflatedListener;
+import com.demons.guide.listener.OnHighlightDrewListener;
+import com.demons.guide.listener.OnLayoutInflatedListener;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class GuidePage {
@@ -58,8 +57,8 @@ public class GuidePage {
      * 添加需要高亮的view
      *
      * @param view          需要高亮的view
-     * @param shape         高亮形状{@link com.app.hubert.guide.model.HighLight.Shape}
-     * @param round         圆角尺寸，单位dp，仅{@link com.app.hubert.guide.model.HighLight.Shape#ROUND_RECTANGLE}有效
+     * @param shape         高亮形状{@link com.demons.guide.model.HighLight.Shape}
+     * @param round         圆角尺寸，单位dp，仅{@link com.demons.guide.model.HighLight.Shape#ROUND_RECTANGLE}有效
      * @param padding       高亮相对view的padding,单位px
      * @param relativeGuide 相对于高亮的引导布局
      */
@@ -98,8 +97,8 @@ public class GuidePage {
      * 添加高亮区域
      *
      * @param rectF         高亮区域，相对与anchor view（默认是decorView）
-     * @param shape         高亮形状{@link com.app.hubert.guide.model.HighLight.Shape}
-     * @param round         圆角尺寸，单位dp，仅{@link com.app.hubert.guide.model.HighLight.Shape#ROUND_RECTANGLE}有效
+     * @param shape         高亮形状{@link com.demons.guide.model.HighLight.Shape}
+     * @param round         圆角尺寸，单位dp，仅{@link com.demons.guide.model.HighLight.Shape#ROUND_RECTANGLE}有效
      * @param relativeGuide 相对于高亮的引导布局
      */
     public GuidePage addHighLight(RectF rectF, HighLight.Shape shape, int round, RelativeGuide relativeGuide) {
